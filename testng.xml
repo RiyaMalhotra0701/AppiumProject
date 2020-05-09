@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Mobile app Automation">
+   <test name="Amazon App">
+    <parameter name="DeviceType" value="RealAndroidDevice"/>
+      <classes>
+       <class name="com.amazon.tests.PurchaseItem"/>
+      </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

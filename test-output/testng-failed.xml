@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Mobile app Automation]">
+  <test thread-count="5" name="Amazon App(failed)">
+    <parameter name="DeviceType" value="RealAndroidDevice"/>
+    <classes>
+      <class name="com.amazon.tests.PurchaseItem">
+        <methods>
+          <include name="quitDriver"/>
+          <include name="initializeDriver"/>
+          <include name="purchaseItem"/>
+        </methods>
+      </class> <!-- com.amazon.tests.PurchaseItem -->
+    </classes>
+  </test> <!-- Amazon App(failed) -->
+</suite> <!-- Failed suite [Mobile app Automation] -->

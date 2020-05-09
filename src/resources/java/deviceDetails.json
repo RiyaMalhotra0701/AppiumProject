@@ -1,0 +1,10 @@
+{
+"RealAndroidDevice": {
+		"appiumServerUrl": "http://localhost:4723/wd/hub",
+		"deviceName": "Redmi Note 5 Pro",
+        "udid": "47c1a1e8",
+        "platformName": "Android",
+        "appPackage": "com.amazon.mShop.android.shopping",
+        "appActivity": "com.amazon.mShop.splashscreen.StartupActivity"
+	}
+}
