@@ -41,8 +41,8 @@ public class PurchaseItem {
 		System.out.println(AmazonShoppingCartPage.cartProductName);
 		System.out.println(AmazonSelectedProductPage.selectedProductPrice);
 		System.out.println(AmazonShoppingCartPage.cartProductPrice);
-		//Assert.assertEquals(AmazonSelectedProductPage.selectedProductName, AmazonShoppingCartPage.cartProductName);
-		//Assert.assertEquals(AmazonSelectedProductPage.selectedProductPrice, AmazonShoppingCartPage.cartProductPrice);
+		Assert.assertEquals(AmazonSelectedProductPage.selectedProductName, AmazonShoppingCartPage.cartProductName);
+		Assert.assertEquals(AmazonSelectedProductPage.selectedProductPrice, AmazonShoppingCartPage.cartProductPrice);
 	}
 
 	// Quit the driver after execution of test case
