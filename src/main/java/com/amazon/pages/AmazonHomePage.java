@@ -20,60 +20,60 @@ import com.amazon.logManager.MyLogger;
 import com.amazon.utils.AndroidUiActions;
 
 public class AmazonHomePage extends AndroidUiActions {
-    public AmazonHomePage(AndroidDriver<AndroidElement> driver){
-        super(driver);
-        MyLogger.log.info("AmazonHomePage Objects instance is created");
-    }
+	public AmazonHomePage(AndroidDriver<AndroidElement> driver) {
+		super(driver);
+		MyLogger.log.info("AmazonHomePage Objects instance is created");
+	}
 
-    //Hamburger Icon
-    @AndroidFindBy(id = "com.amazon.mShop.android.shopping:id/chrome_action_bar_burger_icon")
-    private AndroidElement hamburgerIcon;
+	// Hamburger Icon
+	@AndroidFindBy(id = "com.amazon.mShop.android.shopping:id/chrome_action_bar_burger_icon")
+	private AndroidElement hamburgerIcon;
 
-    //Home Icon
-    @AndroidFindBy(xpath = "//android.widget.ImageView[@content-desc='Home']")
-    private AndroidElement homeIcon;
+	// Home Icon
+	@AndroidFindBy(xpath = "//android.widget.ImageView[@content-desc='Home']")
+	private AndroidElement homeIcon;
 
-    //Search Bar
-    @AndroidFindBy(xpath = "//android.widget.EditText[@text='Search']")
-    private AndroidElement searchBar;
-    
-    //Item
-    @AndroidFindBy(id = "com.amazon.mShop.android.shopping:id/list_product_linear_layout")
-    private List<AndroidElement> searchedItem;
-    
-    /* tapHamburgerIcon function taps on Hamburger Icon
-     *
-     * @author Riya Malhotra
-     */
-    public AmazonHomePage tapHamburgerIcon() {
-        try {
-            tap(hamburgerIcon);
-            MyLogger.log.info("Tapped on Hamburger Icon");
+	// Search Bar
+	@AndroidFindBy(xpath = "//android.widget.EditText[@text='Search']")
+	private AndroidElement searchBar;
 
-        } catch (Exception e) {
-            MyLogger.log.error("Unable to tap on Hamburger Icon");
-            Assert.fail("Unable to tap on Hamburger Icon"+e.getMessage());
-        }
-        return this;
-    }
-    
+	// Item
+	@AndroidFindBy(id = "com.amazon.mShop.android.shopping:id/list_product_linear_layout")
+	private List<AndroidElement> searchedItem;
 
-    /* tapHomeIcon function taps on Home Icon
-     *
-     * @author Riya Malhotra
-     */
-    public AmazonHomePage tapHomeIcon() {
-        try {
-            tap(homeIcon);
-            MyLogger.log.info("Tapped on Home Icon");
+	/*
+	 * tapHamburgerIcon function taps on Hamburger Icon
+	 *
+	 * @author Riya Malhotra
+	 */
+	public AmazonHomePage tapHamburgerIcon() {
+		try {
+			tap(hamburgerIcon);
+			MyLogger.log.info("Tapped on Hamburger Icon");
 
-        } catch (Exception e) {
-            MyLogger.log.error("Unable to tap on Home Icon");
-            Assert.fail("Unable to tap on Home Icon" + e.getMessage());
-        }
-        return this;
-    }
-    
+		} catch (Exception e) {
+			MyLogger.log.error("Unable to tap on Hamburger Icon");
+			Assert.fail("Unable to tap on Hamburger Icon" + e.getMessage());
+		}
+		return this;
+	}
+
+	/*
+	 * tapHomeIcon function taps on Home Icon
+	 *
+	 * @author Riya Malhotra
+	 */
+	public AmazonHomePage tapHomeIcon() {
+		try {
+			tap(homeIcon);
+			MyLogger.log.info("Tapped on Home Icon");
+
+		} catch (Exception e) {
+			MyLogger.log.error("Unable to tap on Home Icon");
+			Assert.fail("Unable to tap on Home Icon" + e.getMessage());
+		}
+		return this;
+	}
 
 	/*
 	 * enterProductName function enters the item to be searched in search bar
@@ -94,15 +94,16 @@ public class AmazonHomePage extends AndroidUiActions {
 		}
 		return this;
 	}
-	
+
 	/*
-	 * selectProductFromList function selects the item from the list of searched items
+	 * selectProductFromList function selects the item from the list of searched
+	 * items
 	 *
 	 * @author Riya Malhotra
 	 */
 	public AmazonHomePage selectProductFromList() {
 		try {
-			tap(searchedItem.get(1));		
+			tap(searchedItem.get(1));
 			MyLogger.log.info("selected the desired item");
 
 		} catch (Exception e) {

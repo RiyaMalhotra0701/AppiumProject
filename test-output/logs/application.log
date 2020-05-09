@@ -917,3 +917,63 @@ Session ID: 98db8903-66b1-471a-b4c3-aada25ff4b2c
 05-09-2020 18:59:08 - [com.amazon.pages.AmazonHomePage / selectProductFromList][INFO ] - selected the desired item
 05-09-2020 18:59:13 - [com.amazon.pages.AmazonSelectedProductPage / productNameOnProductPage][INFO ] - saved product name
 05-09-2020 18:59:15 - [com.amazon.pages.AmazonSelectedProductPage / productPriceOnProductPage][ERROR] - Unable to get product price
+05-09-2020 19:47:16 - [com.amazon.pages.AmazonApp / init][INFO ] - Session created successfully with  Capabilities {appActivity: com.amazon.mShop.splashscre..., appPackage: com.amazon.mShop.android.sh..., databaseEnabled: false, desired: {appActivity: com.amazon.mShop.splashscre..., appPackage: com.amazon.mShop.android.sh..., deviceName: Redmi Note 5 Pro, noReset: true, platformName: android, udid: 47c1a1e8}, deviceApiLevel: 28, deviceManufacturer: Xiaomi, deviceModel: Redmi Note 5 Pro, deviceName: 47c1a1e8, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 47c1a1e8, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 66, takesScreenshot: true, udid: 47c1a1e8, viewportRect: {height: 1964, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+05-09-2020 19:47:17 - [com.amazon.utils.AndroidUiActions / <init>][INFO ] - AndroidUiActions Objects instance is created
+05-09-2020 19:47:17 - [com.amazon.pages.AmazonHomePage / <init>][INFO ] - AmazonHomePage Objects instance is created
+05-09-2020 19:47:17 - [com.amazon.pages.AmazonApp / init][INFO ] - AmazonHomePage instance is created
+05-09-2020 19:47:17 - [com.amazon.utils.AndroidUiActions / <init>][INFO ] - AndroidUiActions Objects instance is created
+05-09-2020 19:47:17 - [com.amazon.pages.AmazonLoginPage / <init>][INFO ] - AmazonHomePage Objects instance is created
+05-09-2020 19:47:17 - [com.amazon.pages.AmazonApp / init][INFO ] - AmazonLoginPage instance is created
+05-09-2020 19:47:17 - [com.amazon.utils.AndroidUiActions / <init>][INFO ] - AndroidUiActions Objects instance is created
+05-09-2020 19:47:17 - [com.amazon.pages.AmazonSelectedProductPage / <init>][INFO ] - AmazonSelectedProductPage Objects instance is created
+05-09-2020 19:47:17 - [com.amazon.pages.AmazonApp / init][INFO ] - AmazonSelectedProductPage instance is created
+05-09-2020 19:47:17 - [com.amazon.utils.AndroidUiActions / <init>][INFO ] - AndroidUiActions Objects instance is created
+05-09-2020 19:47:17 - [com.amazon.pages.AmazonShoppingCartPage / <init>][INFO ] - AmazonShoppingCartPage Objects instance is created
+05-09-2020 19:47:17 - [com.amazon.pages.AmazonApp / init][INFO ] - AmazonShoppingCartPage instance is created
+05-09-2020 19:47:17 - [com.amazon.utils.AndroidUiActions / tap][INFO ] - Inside tap
+05-09-2020 19:47:22 - [com.amazon.pages.AmazonHomePage / tapHamburgerIcon][INFO ] - Tapped on Hamburger Icon
+05-09-2020 19:47:22 - [com.amazon.utils.AndroidUiActions / tap][INFO ] - Inside tap
+05-09-2020 19:47:28 - [com.amazon.pages.AmazonHomePage / tapHomeIcon][INFO ] - Tapped on Home Icon
+05-09-2020 19:47:29 - [com.amazon.pages.AmazonLoginPage / enterUsername][INFO ] - Entered mobile number to login
+05-09-2020 19:47:29 - [com.amazon.utils.AndroidUiActions / tap][INFO ] - Inside tap
+05-09-2020 19:47:31 - [com.amazon.pages.AmazonLoginPage / tapContinueButton][INFO ] - Tapped on continue button
+05-09-2020 19:47:35 - [com.amazon.pages.AmazonLoginPage / enterPassword][INFO ] - Entered password
+05-09-2020 19:47:35 - [com.amazon.utils.AndroidUiActions / tap][INFO ] - Inside tap
+05-09-2020 19:48:20 - [com.amazon.pages.AmazonApp / init][INFO ] - Session created successfully with  Capabilities {appActivity: com.amazon.mShop.splashscre..., appPackage: com.amazon.mShop.android.sh..., databaseEnabled: false, desired: {appActivity: com.amazon.mShop.splashscre..., appPackage: com.amazon.mShop.android.sh..., deviceName: Redmi Note 5 Pro, noReset: true, platformName: android, udid: 47c1a1e8}, deviceApiLevel: 28, deviceManufacturer: Xiaomi, deviceModel: Redmi Note 5 Pro, deviceName: 47c1a1e8, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 47c1a1e8, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 66, takesScreenshot: true, udid: 47c1a1e8, viewportRect: {height: 1964, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+05-09-2020 19:48:21 - [com.amazon.utils.AndroidUiActions / <init>][INFO ] - AndroidUiActions Objects instance is created
+05-09-2020 19:48:21 - [com.amazon.pages.AmazonHomePage / <init>][INFO ] - AmazonHomePage Objects instance is created
+05-09-2020 19:48:21 - [com.amazon.pages.AmazonApp / init][INFO ] - AmazonHomePage instance is created
+05-09-2020 19:48:21 - [com.amazon.utils.AndroidUiActions / <init>][INFO ] - AndroidUiActions Objects instance is created
+05-09-2020 19:48:21 - [com.amazon.pages.AmazonLoginPage / <init>][INFO ] - AmazonHomePage Objects instance is created
+05-09-2020 19:48:21 - [com.amazon.pages.AmazonApp / init][INFO ] - AmazonLoginPage instance is created
+05-09-2020 19:48:21 - [com.amazon.utils.AndroidUiActions / <init>][INFO ] - AndroidUiActions Objects instance is created
+05-09-2020 19:48:21 - [com.amazon.pages.AmazonSelectedProductPage / <init>][INFO ] - AmazonSelectedProductPage Objects instance is created
+05-09-2020 19:48:21 - [com.amazon.pages.AmazonApp / init][INFO ] - AmazonSelectedProductPage instance is created
+05-09-2020 19:48:21 - [com.amazon.utils.AndroidUiActions / <init>][INFO ] - AndroidUiActions Objects instance is created
+05-09-2020 19:48:21 - [com.amazon.pages.AmazonShoppingCartPage / <init>][INFO ] - AmazonShoppingCartPage Objects instance is created
+05-09-2020 19:48:21 - [com.amazon.pages.AmazonApp / init][INFO ] - AmazonShoppingCartPage instance is created
+05-09-2020 19:48:21 - [com.amazon.utils.AndroidUiActions / tap][INFO ] - Inside tap
+05-09-2020 19:48:24 - [com.amazon.pages.AmazonHomePage / tapHamburgerIcon][INFO ] - Tapped on Hamburger Icon
+05-09-2020 19:48:24 - [com.amazon.utils.AndroidUiActions / tap][INFO ] - Inside tap
+05-09-2020 19:48:30 - [com.amazon.pages.AmazonHomePage / tapHomeIcon][INFO ] - Tapped on Home Icon
+05-09-2020 19:48:33 - [com.amazon.pages.AmazonLoginPage / enterUsername][INFO ] - Entered mobile number to login
+05-09-2020 19:48:33 - [com.amazon.utils.AndroidUiActions / tap][INFO ] - Inside tap
+05-09-2020 19:48:34 - [com.amazon.pages.AmazonLoginPage / tapContinueButton][INFO ] - Tapped on continue button
+05-09-2020 19:48:38 - [com.amazon.pages.AmazonLoginPage / enterPassword][INFO ] - Entered password
+05-09-2020 19:48:38 - [com.amazon.utils.AndroidUiActions / tap][INFO ] - Inside tap
+05-09-2020 19:48:39 - [com.amazon.pages.AmazonLoginPage / tapSignInButton][INFO ] - Tapped on SignIn button
+05-09-2020 19:48:39 - [com.amazon.utils.AndroidUiActions / tap][INFO ] - Inside tap
+05-09-2020 19:48:58 - [com.amazon.utils.AndroidUiActions / pressKey][INFO ] - Pressed key ENTER
+05-09-2020 19:48:58 - [com.amazon.utils.AndroidUiActions / pressEnterKey][INFO ] - Successfully pressed the ENTER key
+05-09-2020 19:48:58 - [com.amazon.pages.AmazonHomePage / enterProductName][INFO ] - enters the item to be searched
+05-09-2020 19:49:01 - [com.amazon.utils.AndroidUiActions / tap][INFO ] - Inside tap
+05-09-2020 19:49:02 - [com.amazon.pages.AmazonHomePage / selectProductFromList][INFO ] - selected the desired item
+05-09-2020 19:49:07 - [com.amazon.pages.AmazonSelectedProductPage / productNameOnProductPage][INFO ] - saved product name
+05-09-2020 19:49:09 - [com.amazon.pages.AmazonSelectedProductPage / productPriceOnProductPage][INFO ] - saved product price
+05-09-2020 19:49:12 - [com.amazon.utils.AndroidUiActions / tap][INFO ] - Inside tap
+05-09-2020 19:49:14 - [com.amazon.pages.AmazonSelectedProductPage / tapOnAddToCartButton][INFO ] - Clicked on add to cart button
+05-09-2020 19:49:16 - [com.amazon.utils.AndroidUiActions / tap][INFO ] - Inside tap
+05-09-2020 19:49:16 - [com.amazon.pages.AmazonSelectedProductPage / tapOnCartIcon][INFO ] - Clicked on cart icon
+05-09-2020 19:50:18 - [com.amazon.utils.AndroidUiActions / waitToAppear][INFO ] - No element was found within specified wait time Located by By.chained({By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.RelativeLayout/android.widget.RelativeLayout[2]/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.ViewAnimator/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View/android.view.View[4]/android.view.View/android.view.View[5]/android.view.View/android.view.View[2]/android.view.View/android.view.View[3]/android.view.View})
+05-09-2020 19:50:18 - [com.amazon.pages.AmazonShoppingCartPage / productNameOnCartPage][INFO ] - saved product name
+05-09-2020 19:50:19 - [com.amazon.pages.AmazonShoppingCartPage / productPriceOnCartPage][INFO ] - saved product price

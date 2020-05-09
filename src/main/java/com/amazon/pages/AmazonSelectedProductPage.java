@@ -13,7 +13,6 @@ package com.amazon.pages;
 import org.testng.Assert;
 import com.amazon.logManager.MyLogger;
 import com.amazon.utils.AndroidUiActions;
-
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
@@ -35,7 +34,6 @@ public class AmazonSelectedProductPage extends AndroidUiActions{
     @AndroidFindBy(xpath = "//android.view.View[@resource-id='ourPrice_availability']")
     private AndroidElement productPrice;
     
-    //     @AndroidFindBy(xpath = "//android.widget.Button[@text=’Add to Cart’]"
     //Add to Cart button
     @AndroidFindBy(xpath = "//android.widget.Button[@resource-id='add-to-cart-button']")
     private AndroidElement addToCartButton;

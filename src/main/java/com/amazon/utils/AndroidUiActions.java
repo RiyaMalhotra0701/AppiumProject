@@ -9,15 +9,11 @@
 package com.amazon.utils;
 
 import com.amazon.logManager.MyLogger;
-import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.android.nativekey.AndroidKey;
 import io.appium.java_client.android.nativekey.KeyEvent;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
-import io.appium.java_client.touch.LongPressOptions;
-import io.appium.java_client.touch.offset.ElementOption;
-import io.appium.java_client.touch.offset.PointOption;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -25,21 +21,9 @@ import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
 import org.testng.Assert;
 import java.time.Duration;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
 import java.util.Properties;
-
-import static io.appium.java_client.touch.WaitOptions.waitOptions;
-import static io.appium.java_client.touch.offset.PointOption.point;
-import static java.time.Duration.ofMillis;
-
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-
-import static io.appium.java_client.touch.TapOptions.tapOptions;
-import static io.appium.java_client.touch.offset.ElementOption.element;
 
 public class AndroidUiActions {
 	public AndroidDriver<AndroidElement> driver;
@@ -48,27 +32,6 @@ public class AndroidUiActions {
 		this.driver = driver;
 		PageFactory.initElements(new AppiumFieldDecorator(driver, Duration.ofSeconds(30)), this);
 		MyLogger.log.info("AndroidUiActions Objects instance is created");
-	}
-
-	public void swipeDownward() {
-		Dimension size = driver.manage().window().getSize();
-		int width = (int) (size.getWidth() / 2);
-		int startPoint = (int) (size.getHeight() * 0.8);
-
-		int endPoint = (int) (size.getHeight() * 0.21);
-		new TouchAction(driver).press(PointOption.point(width, startPoint)).waitAction()
-				.moveTo(PointOption.point(width, endPoint)).release().perform();
-	}
-
-	public void swipeUpward() {
-
-		Dimension size = driver.manage().window().getSize();
-		int width = (int) (size.getWidth() / 2);
-		int startPoint = (int) (size.getHeight() * 0.8);
-
-		int endPoint = (int) (size.getHeight() * 0.21);
-		new TouchAction(driver).press(PointOption.point(width, endPoint)).waitAction()
-				.moveTo(PointOption.point(width, startPoint)).release().perform();
 	}
 
 	public WebElement waitToAppear(AndroidElement element) throws Exception {
